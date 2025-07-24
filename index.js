@@ -3,7 +3,7 @@ const cardFlip = document.querySelector('.card-flip');
 
 const backDesigns = [
   {
-    title: "Poseido🌊  – God of the Sea",
+    title: "Poseidon🌊  – God of the Sea",
     desc: "You are the embodiment of tides and storm. Fierce, loyal, and commanding. Your soul answers the call of chaos and calm alike.",
     image: "Images/poseidon1.png"
   },
@@ -26,7 +26,7 @@ const backDesigns = [
   },
   
   {
-    title: "Aphrodite",
+    title: "💖 Aphrodite – Goddess of Love, Beauty, and Desire",
     desc: "You light the world with beauty and grace. Beneath your glow lies fierce confidence and unshakable inner knowing.",
     image: "Images/aphrodite1.png"
   },
