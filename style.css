@@ -1,0 +1,218 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  background-image: linear-gradient(to top right, #290430de, #04040d);
+  display: flex;
+  flex-direction: column;
+  font-family: 'Cormorant Garamond', serif;
+  overflow: hidden;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  position: relative;
+}
+
+#logo {
+  width: 100px;
+  align-self: flex-start;
+}
+
+#heading1 {
+  flex-grow: 1;
+  text-align: center;
+  font-family: 'Cinzel Decorative';
+  font-size: 40px;
+  color: white;
+  text-shadow: 2px 2px 5px #fffffff8;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.orb-section {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+  padding: 1rem 2rem;
+  color: white;
+}
+
+.top-texts,
+.bottom-texts {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1100px;
+  font-size: 1.1rem;
+}
+
+.poem-left,
+.poem-right {
+  max-width: 250px;
+}
+
+.orb-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.orb-img {
+ 
+  width: 250px; /* Increase this value */
+  height: auto;
+
+
+}
+
+.cta {
+  color: white;
+  background-color: #380539;
+  padding: 1rem 2.5rem;
+  font-size: 1.5rem;
+  border-radius: 50px;
+  border: 2px solid #ffffffc9;
+  box-shadow: 0 0 10px #fff;
+  cursor: pointer;
+  transition: transform 0.3s;
+  font-family: 'Cormorant Garamond', serif;
+}
+
+.cta:hover {
+  transform: scale(1.05);
+}
+
+footer {
+  text-align: center;
+  padding: 0.5rem 0;
+  font-size: 1rem;
+  color: white;
+  font-family: 'Cormorant Garamond', serif;
+}
+
+footer a {
+  color: #c5aaff;
+  text-decoration: none;
+}
+
+
+    .orb-glow {
+  width: 220px; 
+  filter: drop-shadow(0 0 30px #a86af1) drop-shadow(0 0 60px #ffffff38);
+  transition: transform 0.3s ease-in-out;
+}
+
+.orb-glow:hover {
+  transform: scale(1.05);
+  filter: drop-shadow(0 0 40px #be8eff) drop-shadow(0 0 80px #ffffff55);
+}
+
+@media(max-width: 768px){
+     #heading1{
+      font-size: 2rem;
+      /* text-align: center; */
+     }
+
+     #logo{
+      width: 100px;
+     }
+    .orb-center{
+      width: 100%;
+    }
+
+    .poem-left{
+      font-size:1rem;
+    }
+
+    .poem-right{
+      font-size: 1rem;
+    }
+
+    .cta{
+      font-size: 2rem;
+      
+      /* padding: 10px 10px; */
+    }
+}
+
+@media(max-width: 480px){
+    body{
+      overflow: auto;
+    }
+  .header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem 1rem;
+  }
+
+  #heading1{
+    flex: 1;
+    text-align: center;
+   position: static;
+   transform: none;
+   font-size: 1.3rem;
+   margin-left: 20px;
+   margin-top: 40px;
+   
+   
+  }
+
+  #logo{
+    position: absolute;
+    left: 1rem;
+  
+    width: 50px;
+   flex-shrink: 0;
+   align-self: flex-start;
+  }
+  .container{
+    flex-direction: column;
+  }
+
+  .orb-center{
+    width: 200%;
+    width: 100%;
+  }
+
+  .orb-img{
+    width: 150px;
+  }
+  .top-texts,
+  .bottom-texts{
+    padding: 2px;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    text-align: center;
+  }
+
+  .poem-left,
+  .poem-right{
+    max-width: 100%;
+  }
+  
+
+  .cta{
+    font-size: 1rem;
+    padding-bottom: 1rem;
+    max-width: 200px;
+    height: 50px
+  }
+
+  
+}
