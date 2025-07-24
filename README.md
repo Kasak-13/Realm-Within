@@ -43,7 +43,7 @@ I walk the line between code and cosmos,
 designing realms where imagination reigns supreme.
 
 - 🐚 [GitHub](https://github.com/kasak-13)  
-- 🌌 [LinkdIn](https://www.linkedin.com/in/kasak-tolani-51b5212aa?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app)   
+- 🌌 [LinkedIn](https://www.linkedin.com/in/kasak-tolani-51b5212aa?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app)   
 - 📸 [Instagram](https://www.instagram.com/iiam_kasak?igsh=cmdhNWlzMmU5b2Rq) 
 
   ---
